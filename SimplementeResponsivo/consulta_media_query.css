@@ -1,0 +1,74 @@
+.caja1 {
+    background-color: #b3b3b3;
+    width: 900px;
+    height: 60x;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja2 {
+    background-color: #cccccc;
+    width: 900px;
+    height: 90px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and ( max-width:480px) {
+    .telefono {
+        background-color: #ffff9a;
+        width: 900px;
+        height: 60px;
+        border: 1px solid black;
+        margin-left: 10px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    .tabla {
+        display: none;
+    }
+    .computador {
+        display: none;
+    }
+}
+
+@media only screen and ( min-width:481px) {
+    .tabla {
+        background-color: #ffff9a;
+        width: 900px;
+        height: 60px;
+        border: 1px solid black;
+        margin-left: 10px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    .telefono {
+        display: none;
+    }
+    .computador {
+        display: none;
+    }
+}
+
+@media only screen and ( min-width:1024px) {
+    .computador {
+        background-color: #ffff9a;
+        border: 1px solid black;
+        margin-left: 10px;
+        display: block;
+        width: 900px;
+        height: 60px;
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .telefono {
+        display: none;
+    }
+    .tabla {
+        display: none;
+    }
+}
